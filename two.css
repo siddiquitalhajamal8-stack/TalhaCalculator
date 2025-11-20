@@ -1,0 +1,74 @@
+.Logo{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #02bdec;
+    z-index: 100;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url('Counter.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* The Blur Card Like Third Photo */
+.blur-box {
+    width: 350px;
+    padding: 25px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.count-box span {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.3);
+    color: rgb(2, 2, 2);
+    backdrop-filter: blur(5px);
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.6);
+    color: black;
+}
+
+footer{
+    margin-top: 20px;
+    color: #ffff;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.8;
+    bottom: 30px;
+    position: absolute;
+}
